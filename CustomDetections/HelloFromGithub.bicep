@@ -4,7 +4,7 @@ extension MicrosoftSecurity
 
 resource test_detection_rule 'Microsoft.Security/detectionRules@2026-01-01-preview' = {
   displayName: 'Hello from Github'
-  isEnabled: false
+  isEnabled: true
   queryCondition: {
     queryText: 'DeviceEvents\r\n| take 1'
   }
