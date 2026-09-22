@@ -9,7 +9,7 @@ resource test_detection_rule 'Microsoft.Security/detectionRules@2026-01-01-previ
     queryText: 'DeviceEvents\r\n| take 1'
   }
   schedule: {
-    period: '24H'
+    period: '12H'
   }
   detectionAction: {
     alertTemplate: {
